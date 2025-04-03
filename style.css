@@ -1,0 +1,22 @@
+#noResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.clear-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.clear-icon:hover {
+    color: #333;
+}
